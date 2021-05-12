@@ -11,7 +11,6 @@ firebase.initializeApp({
    appId: process.env.REACT_APP_APPID,
    measurementId: process.env.REACT_APP_MEASUREMENTID
 });
-
 const auth = firebase.auth();
 const firestore = firebase.firestore();
 const googleProvider = new firebase.auth.GoogleAuthProvider();
